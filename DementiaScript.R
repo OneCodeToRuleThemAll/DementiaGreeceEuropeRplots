@@ -1,4 +1,4 @@
-dementia <- read.csv("C:/Users/Nikolaos/Desktop/Dementia/hlth_cd_asdr2_1_Data.csv",skip=0,stringsAsFactors = FALSE)
+dementia <- read.csv("your path for hlth_cd_asdr2_1_Data.csv ",skip=0,stringsAsFactors = FALSE)
 dementia$Value = as.numeric(as.character(dementia$Value))
 dementia$Flag.and.Footnotes <- NULL
 dementia$UNIT <- NULL
